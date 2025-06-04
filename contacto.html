@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Archivo+Black&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+    <link rel="stylesheet" href="./css/estilo.css">
+    <title>Formulario de contacto</title>
+</head>
+<body>
+<header>
+     <header>
+  <div class="encabezado">
+    <div class="logo-titulo">
+      <img src="./img/logotienda.png" alt="logo Tienda Intimidad" class="imglogo">
+      <h1><a href="index.html" class="titulo-link">Tienda Intimidad</a></h1>
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="quiensoy.html">Quien soy</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="envios.html">Ubicación y envios</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </div>
+  <hr class="lineaheader">
+</header>
+
+         <h1 class="titulot">Contacto</h1>
+        <main class="formbackground"> 
+            <form action="https://formspree.io/f/xrbqndbg" method="POST">
+                <input type="text" name="Nombre" id="nombre" placeholder="Ingrese su nombre">
+                <br>
+                <input type="text" name="Email" id="email" placeholder="Ingrese su email">
+                <br>
+                <br>
+                <textarea name="consulta" rows="5" cols="30" placeholder="Escriba aquí su consulta: ">
+                </textarea>
+                <input type="submit" name="Submit" id="submit" placeholder="Enviar">
+                <input type="reset" name="Reset" id="reset" placeholder="Reset">
+            </form>
+        </main>
+        <hr>
+    <footer>
+            <div class="redes-sociales">
+                <i class="fa-brands fa-instagram" style="font-size: 24px; color: #e1306c;"></i>
+                <i class="fa-brands fa-telegram" style="font-size: 24px; color: #e1306c;"></i>
+                <i class="fa-brands fa-facebook-f" style="font-size: 24px; color: #e1306c;"></i>
+                <i class="fa-brands fa-whatsapp" style="font-size: 24px; color: #e1306c;"></i>
+            </div>
+             <hr>
+            <p class="footerdesarrollo">
+                Desarrolladora: Cecilia Fernández - 2025 / Todos los derechos reservados.
+            </p>    
+        </footer>
+    
+</body>
+</html>
